@@ -30,3 +30,5 @@ bin/
 ### Mac OS ###
 .DS_Store
 
+## Archivos con extensión temporal
+*.java~
