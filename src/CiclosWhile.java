@@ -18,11 +18,19 @@ public class CiclosWhile {
         numero = 0;
         while (true) {
             System.out.print("Escribe un número (para salir del programa deberás escribir " + salida + "): ");
-            numero = scanner.nextInt();
+            numero = Integer.parseInt(scanner.nextLine());
             if (numero == salida) {
                 System.out.println("Fin del programa");
                 break;
             }
         }
+
+        // do while. Hace y luego pregunta si realizará la siguiente iteración
+        String universidad;
+        do {
+            System.out.println("¿Cual es la mejor univerdad de México?");
+            universidad =  scanner.nextLine();
+        } while (!universidad.equals("UNAM"));
+        System.out.println("Felicidades, has adivinado");
     }
 }

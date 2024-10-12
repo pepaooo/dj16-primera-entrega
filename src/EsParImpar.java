@@ -1,6 +1,7 @@
+// José Angulo
+
 import java.util.Scanner;
 
-// José Angulo
 public class EsParImpar {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

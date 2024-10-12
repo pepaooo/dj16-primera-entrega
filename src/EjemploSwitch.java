@@ -1,3 +1,5 @@
+// José Angulo
+
 import java.util.Scanner;
 
 // Ejemplo de Switch como sentencia y expresión

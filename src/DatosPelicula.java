@@ -1,3 +1,4 @@
+// José Angulo
 public class DatosPelicula {
     // Al menos 5 variables con diferente tipo de dato primitivo + String de una película ficticia
     public static void main(String[] args) {
